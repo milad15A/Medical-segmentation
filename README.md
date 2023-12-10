@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://www.kaggle.com/competitions/uw-madison-gi-tract-image-segmentation">
-    <img src="cover.png" alt="Logo" width="900" height="200">
+    <img src="cover.png" alt="Logo" width="1000" height="300">
   </a>
   <h1 align="center">Medical Image Segmentation</h1>
 </div>
