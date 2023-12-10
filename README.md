@@ -5,7 +5,7 @@
   <h1 align="center">Medical Image Segmentation</h1>
 </div>
 
-This repository serves as the template for the third project in the Deep Catalyst course, focusing on medical image segmentation. Explore and utilize this template to kickstart your own medical image segmentation projects, leverage best practices, and accelerate your journey into the world of precise medical diagnostics through deep learning.
+This repository has been created to delve into the realm of AI within the field of medicine. Our goal is to devise and execute a straightforward but precise initiative in this domain. I express my gratitude to Howsam Academy and Dr. Seyed Sajad Ashrafi for their assistance during challenging situations.
 
 ## 1. Problem Statement
 In this section, you'll find a comprehensive overview of the problem being addressed in the project.
