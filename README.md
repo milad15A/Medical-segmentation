@@ -8,7 +8,8 @@
 This repository has been created to delve into the realm of AI within the field of medicine. Our goal is to devise and execute a straightforward but precise initiative in this domain. I express my gratitude to Howsam Academy and Dr. Seyed Sajad Ashrafi for their assistance during challenging situations.
 
 ## 1. Problem Statement
-In this section, you'll find a comprehensive overview of the problem being addressed in the project.
+
+This segment focuses on a prevalent form of cancer in the population and an effective deep-learning approach to aid in its treatment. However, before delving into that, we aim to provide a concise definition of semantic segmentation and its related concepts.
 
 ## 2. Related Works
 This section explores existing research and solutions related to medical image segmentation. 
