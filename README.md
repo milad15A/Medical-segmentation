@@ -12,7 +12,7 @@ This repository has been created to delve into the realm of AI within the field 
 This segment focuses on a prevalent form of cancer in the population and an effective deep-learning approach to aid in its treatment. However, before delving into that, we aim to provide a concise definition of semantic segmentation and its related concepts.
   <br/>1-Image segmentation: Image segmentation involves dividing an image into meaningful segments or regions based on certain characteristics, such as color, intensity, texture, or boundaries.
   <br/>2- Semantic segmentation: the algorithm attempts to label every single pixel.
-  in medicine, segmenting can out the image exactly which pixels correspond to certain parts of the patient's anatomy
+  <br/>in medicine, segmenting can out the image exactly which pixels correspond to certain parts of the patient's anatomy
 
 ## 2. Related Works
 This section explores existing research and solutions related to medical image segmentation. 
