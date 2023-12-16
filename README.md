@@ -17,7 +17,7 @@ This segment focuses on a prevalent form of cancer in the population and an effe
 ## 2. Related Works
 | Number | Architecture | Short Description | Link |
 |--------|--------------|-------------------|------|
-| 1   |   V-Net    | proposed an approach to 3D image segmentation based on a volumetric, fully convolutional, neural network. data was augmented by applying random non-linear transformations and histogram matching | [Link 1](http://example.com/x86-64) |
+| 1   |   V-Net    | proposed an approach to 3D image segmentation based on a volumetric, fully convolutional, neural network. data was augmented by applying random non-linear transformations and histogram matching | [Link]([http://example.com/x86-64](https://paperswithcode.com/paper/v-net-fully-convolutional-neural-networks-for)) |
 | 2      |   UNet++    |  | |
 | 3     |  SegNet      |  | |
 | 4      |  U-Net      |  | |
