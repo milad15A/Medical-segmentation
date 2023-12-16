@@ -15,11 +15,12 @@ This segment focuses on a prevalent form of cancer in the population and an effe
   <br/>in medicine, segmenting can out the image exactly which pixels correspond to certain parts of the patient's anatomy
 
 ## 2. Related Works
-| Header 1 | Header 2 | Header 3 |
-|----------|----------|----------|
-| Row 1, Col 1 | Row 1, Col 2 | Row 1, Col 3 |
-| Row 2, Col 1 | Row 2, Col 2 | Row 2, Col 3 |
-| Row 3, Col 1 | Row 3, Col 2 | Row 3, Col 3 |
+| Number | Architecture | Short Description | Link |
+|--------|--------------|-------------------|------|
+| 1      |       |  | |
+| 2      |       |  | |
+| 3      |       |  | |
+
  
 
 ## 3. The Proposed Method
