@@ -27,7 +27,7 @@ To perform segmentation on the stomach and intestines, aiming to support oncolog
 | 2      |   UNet++    |  | |
 | 3     |  Deeplabv3     |designed modules that employ atrous convolution in cascade or in parallel to capture multi-scale context by adopting multiple atrous rates  | |
 | 4      |  U-Net      |  | |
-|5       | designed a Spatial Path with a small stride to preserve the spatial information and generate high-resolution features. Meanwhile, a Context Path with a fast downsampling strategy is employed to obtain a sufficient receptive field.             | |  |
+|5       |              |designed a Spatial Path with a small stride to preserve the spatial information and generate high-resolution features. Meanwhile, a Context Path with a fast downsampling strategy is employed to obtain a sufficient receptive field. |  |
  
 
 ## 3. The Proposed Method
