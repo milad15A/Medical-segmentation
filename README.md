@@ -17,10 +17,10 @@ This segment focuses on a prevalent form of cancer in the population and an effe
 ## 2. Related Works
 | Number | Architecture | Short Description | Link |
 |--------|--------------|-------------------|------|
-| 1 V-Net  |       |  | |
-| 2 UNet++     |       |  | |
-| 3SegNet      |       |  | |
-| U-Net       |       |  | |
+| 1   |   V-Net    |  | |
+| 2      |   UNet++    |  | |
+| 3     |  SegNet      |  | |
+| 4      |  U-Net      |  | |
 
  
 
