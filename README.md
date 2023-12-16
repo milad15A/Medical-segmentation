@@ -14,7 +14,7 @@ This segment focuses on a prevalent form of cancer in the population and an effe
   <br/>2- Semantic segmentation: the algorithm attempts to label every single pixel.
   <br/> In medicine, segmenting can out the image exactly which pixels correspond to certain parts of the patient's anatomy
 
-  # Main objective:
+  ### Main objective:
 
 To perform segmentation on the stomach and intestines, aiming to support oncologists in the precise administration of X-ray treatments. Furthermore, patients experience lower levels of pain in their bodies.
 
