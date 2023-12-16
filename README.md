@@ -25,9 +25,9 @@ To perform segmentation on the stomach and intestines, aiming to support oncolog
 |--------|--------------|-------------------|------|
 | 1   |   V-Net    | proposed an approach to 3D image segmentation based on a volumetric, fully convolutional, neural network. data was augmented by applying random non-linear transformations and histogram matching | [Link]([http://example.com/x86-64](https://paperswithcode.com/paper/v-net-fully-convolutional-neural-networks-for) |
 | 2      |   UNet++    |  | |
-| 3     |  Deeplabv3     |  | |
+| 3     |  Deeplabv3     |designed modules that employ atrous convolution in cascade or in parallel to capture multi-scale context by adopting multiple atrous rates  | |
 | 4      |  U-Net      |  | |
-
+|5       |              | |  |
  
 
 ## 3. The Proposed Method
