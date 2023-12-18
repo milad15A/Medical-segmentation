@@ -21,6 +21,8 @@ In summary, medical image segmentation is a critical component of modern healthc
 To perform segmentation on the stomach and intestines, aiming to support oncologists in the precise administration of X-ray treatments. the ultimate goal is to reduce patient's pain levels and enhance the overall effectiveness of medical interventions
 
 ## 2. Related Works
+this section presents both common and innovative methods and architectures, aiming to provide readers with a comprehensive understanding of the subject. 
+
 | Number | Architecture | Short Description | Link |
 |--------|--------------|-------------------|------|
 | 1   |   OneFormer    | new panoptic architectures used the same architecture to achieve top performance across diﬀerent tasks. a unique multi-task universal architecture with a task-conditioned joint training strategy that sets new state-of-the-art across semantic | [Link](https://paperswithcode.com/paper/oneformer-one-transformer-to-rule-universal) |
