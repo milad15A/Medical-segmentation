@@ -34,7 +34,9 @@ This section presents both common and innovative methods and architectures, aimi
  
 
 ## 3. The Proposed Method
-Here, the proposed approach for solving the problem is detailed. It covers the algorithms, techniques, or deep learning models to be applied, explaining how they address the problem and why they were chosen.
+The U-Net, a widely adopted architecture, has been employed, incorporating two main components: 
+ ###<br>encoder 
+ ###<br>decoder
 
 ## 4. Implementation
 This section delves into the practical aspects of the project's implementation.
