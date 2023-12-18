@@ -23,7 +23,7 @@ To perform segmentation on the stomach and intestines, aiming to support oncolog
 ## 2. Related Works
 | Number | Architecture | Short Description | Link |
 |--------|--------------|-------------------|------|
-| 1   |   OneFormer    | new panoptic architectures used the same architecture to achieve top performance across diﬀerent tasks. a unique multi-task universal architecture with a task-conditioned joint training strategy that sets new state-of-the-art across semantic | [Link](https://paperswithcode.com/paper/v-net-fully-convolutional-neural-networks-for) |
+| 1   |   OneFormer    | new panoptic architectures used the same architecture to achieve top performance across diﬀerent tasks. a unique multi-task universal architecture with a task-conditioned joint training strategy that sets new state-of-the-art across semantic | [Link](https://paperswithcode.com/paper/oneformer-one-transformer-to-rule-universal) |
 | 2      |   UNet++    | A deeply-supervised encoder-decoder network where the encoder and decoder sub-networks are connected through a series of nested, dense skip pathways. The re-designed skip pathways aim at reducing the semantic gap between the feature maps of the encoder and decoder sub-networks  |[Link](https://paperswithcode.com/paper/unet-a-nested-u-net-architecture-for-medical) |
 | 3     |  Deeplabv3     |designed modules that employ atrous convolution in cascade or in parallel to capture multi-scale context by adopting multiple atrous rates  | |
 |4       |    BiSeNet          |designed a Spatial Path with a small stride to preserve the spatial information and generate high-resolution features. Meanwhile, a Context Path with a fast downsampling strategy is employed to obtain a sufficient receptive field. |  |
