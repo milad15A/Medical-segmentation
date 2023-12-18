@@ -18,7 +18,7 @@ In summary, medical image segmentation is a critical component of modern healthc
 
   ### Main objective:
 
-To perform segmentation on the stomach and intestines, aiming to support oncologists in the precise administration of X-ray treatments. Furthermore, patients experience lower levels of pain in their bodies.
+To perform segmentation on the stomach and intestines, aiming to support oncologists in the precise administration of X-ray treatments. the ultimate goal is to reduce patient's pain levels and enhance the overall effectiveness of medical interventions
 
 ## 2. Related Works
 | Number | Architecture | Short Description | Link |
