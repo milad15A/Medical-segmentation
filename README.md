@@ -23,7 +23,7 @@ To perform segmentation on the stomach and intestines, aiming to support oncolog
 ## 2. Related Works
 | Number | Architecture | Short Description | Link |
 |--------|--------------|-------------------|------|
-| 1   |   V-Net    | proposed an approach to 3D image segmentation based on a volumetric, fully convolutional, neural network. data was augmented by applying random non-linear transformations and histogram matching | [Link](https://www.example.com](https://paperswithcode.com/paper/v-net-fully-convolutional-neural-networks-for) |
+| 1   |   V-Net    | proposed an approach to 3D image segmentation based on a volumetric, fully convolutional, neural network. data was augmented by applying random non-linear transformations and histogram matching | [Link](https://paperswithcode.com/paper/v-net-fully-convolutional-neural-networks-for) |
 | 2      |   UNet++    | A deeply-supervised encoder-decoder network where the encoder and decoder sub-networks are connected through a series of nested, dense skip pathways. The re-designed skip pathways aim at reducing the semantic gap between the feature maps of the encoder and decoder sub-networks  | |
 | 3     |  Deeplabv3     |designed modules that employ atrous convolution in cascade or in parallel to capture multi-scale context by adopting multiple atrous rates  | |
 |4       |    BiSeNet          |designed a Spatial Path with a small stride to preserve the spatial information and generate high-resolution features. Meanwhile, a Context Path with a fast downsampling strategy is employed to obtain a sufficient receptive field. |  |
