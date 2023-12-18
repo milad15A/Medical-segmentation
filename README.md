@@ -35,8 +35,8 @@ This section presents both common and innovative methods and architectures, aimi
 
 ## 3. The Proposed Method
 The U-Net, a widely adopted architecture, has been employed, incorporating two main components: 
- <br>###encoder 
- <br>###decoder
+ <br>Encoder 
+ <br>Decoder
 
 ## 4. Implementation
 This section delves into the practical aspects of the project's implementation.
