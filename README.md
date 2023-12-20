@@ -40,7 +40,7 @@ U-Net is a convolutional neural network (CNN) architecture designed for semantic
  downsampling is employed, involving both the increasing number of channel dimensions and the utilization of Max pooling to effectively reduce the height and width
  <br>**2-Decoder** :the dimensions of height and width are increased while simultaneously decreasing the number of channels
 <div align="center">
-    <img src="unet.png" alt="Logo" width="450" height="200">
+    <img src="unet.png" alt="Logo" width="450" height="250">
 </div>
 ## 4. Implementation
 This section delves into the practical aspects of the project's implementation.
