@@ -34,7 +34,8 @@ This section presents both common and innovative methods and architectures, aimi
  
 
 ## 3. The Proposed Method
-The U-Net, a widely adopted architecture, has been employed, incorporating two main components: 
+### U-Net : 
+U-Net is a convolutional neural network (CNN) architecture designed for semantic segmentation tasks in image processing. It consists of an encoder and decoder
  <br>**1-Encoder** : 
  downsampling is employed, involving both the increasing number of channel dimensions and the utilization of Max pooling to effectively reduce the height and width
  <br>**2-Decoder** :the dimensions of height and width are increased while simultaneously decreasing the number of channels
