@@ -37,7 +37,7 @@ This section presents both common and innovative methods and architectures, aimi
 The U-Net, a widely adopted architecture, has been employed, incorporating two main components: 
  <br>**1-Encoder** : 
  downsampling is employed, involving both the increasing number of channel dimensions and the utilization of Max pooling to effectively reduce the height and width
- <br>**2-Decoder**
+ <br>**2-Decoder** :the dimensions of height and width are increased while simultaneously decreasing the number of channels
 
 ## 4. Implementation
 This section delves into the practical aspects of the project's implementation.
