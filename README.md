@@ -47,7 +47,11 @@ U-Net is a convolutional neural network (CNN) architecture designed for semantic
 
 | Loss Function                | Description                                           | Equation
 |------------------------------|-------------------------------------------------------|---------------------------
-| Binary Cross-Entropy (BCE)    | Measures the log-likelihood of predicted probabilities for binary classification. |
+| Binary Cross-Entropy (BCE)    | Measures the log-likelihood of predicted probabilities for binary classification. |\[ L(y, \hat{y}) = - \frac{1}{N} \sum_{i=1}^{N} [y_i \cdot \log(\hat{y}_i) + (1 - y_i) \cdot \log(1 - \hat{y}_i)] \]
+
+- \(y_i\) is the true label (0 or 1).
+- \(\hat{y}_i\) is the predicted probability for class 1.
+- \(N\) is the number of samples.
 | Dice Loss (Dice)              | Measures the overlap between predicted and true positive regions for image segmentation. |
 | Jaccard Loss (Jaccard)        | Measures the intersection over union (IoU) between predicted and true positive regions. |
 | Tversky Loss (Tversky)        | A modification of Dice Loss with adjustable weightings for false positives and false negatives. |
