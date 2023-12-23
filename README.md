@@ -43,12 +43,14 @@ U-Net is a convolutional neural network (CNN) architecture designed for semantic
     <img src="unet.png" alt="Logo" width="450" height="250">
 </div>
 ### Loss Function : 
-  | Loss Function                | Description                                           | Equation                                               |
-|------------------------------|-------------------------------------------------------|--------------------------------------------------------|
-| Binary Cross-Entropy (BCE)    | Measures the log-likelihood of predicted probabilities for binary classification. | \[ L(y, \hat{y}) = - \frac{1}{N} \sum_{i=1}^{N} [y_i \cdot \log(\hat{y}_i) + (1 - y_i) \cdot \log(1 - \hat{y}_i)] \] |
-| Dice Loss (Dice)              | Measures the overlap between predicted and true positive regions for image segmentation. | \[ L(y, \hat{y}) = 1 - \frac{2 \cdot \sum_{i=1}^{N} y_i \cdot \hat{y}_i + \epsilon}{\sum_{i=1}^{N} y_i + \sum_{i=1}^{N} \hat{y}_i + \epsilon} \] |
-| Jaccard Loss (Jaccard)        | Measures the intersection over union (IoU) between predicted and true positive regions. | \[ L(y, \hat{y}) = 1 - \frac{\sum_{i=1}^{N} y_i \cdot \hat{y}_i + \epsilon}{\sum_{i=1}^{N} y_i + \sum_{i=1}^{N} \hat{y}_i - \sum_{i=1}^{N} y_i \cdot \hat{y}_i + \epsilon} \] |
-| Tversky Loss (Tversky)        | A modification of Dice Loss with adjustable weightings for false positives and false negatives. | \[ L(y, \hat{y}) = 1 - \frac{\sum_{i=1}^{N} y_i \cdot \hat{y}_i + \alpha}{\sum_{i=1}^{N} y_i \cdot \hat{y}_i + \beta \cdot \sum_{i=1}^{N} y_i \cdot (1 - \hat{y}_i) + (1 - \beta) \cdot \sum_{i=1}^{N} (1 - y_i) \cdot \hat{y}_i + \alpha} \] |
+
+| Loss Function                | Description                                           |
+|------------------------------|-------------------------------------------------------|
+| Binary Cross-Entropy (BCE)    | Measures the log-likelihood of predicted probabilities for binary classification. |
+| Dice Loss (Dice)              | Measures the overlap between predicted and true positive regions for image segmentation. |
+| Jaccard Loss (Jaccard)        | Measures the intersection over union (IoU) between predicted and true positive regions. |
+| Tversky Loss (Tversky)        | A modification of Dice Loss with adjustable weightings for false positives and false negatives. |
+
 
 
 ## 4. Implementation
