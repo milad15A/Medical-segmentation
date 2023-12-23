@@ -42,7 +42,8 @@ U-Net is a convolutional neural network (CNN) architecture designed for semantic
 <div align="center">
     <img src="unet.png" alt="Logo" width="450" height="250">
 </div>
-### Loss Function : 
+
+###Loss Function : 
 
 | Loss Function                | Description                                           |
 |------------------------------|-------------------------------------------------------|
