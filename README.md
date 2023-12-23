@@ -43,14 +43,15 @@ U-Net is a convolutional neural network (CNN) architecture designed for semantic
     <img src="unet.png" alt="Logo" width="450" height="250">
 </div>
 
-###Loss Function : 
+### Loss Function : 
 
 | Loss Function                | Description                                           | Equation
 |------------------------------|-------------------------------------------------------|---------------------------
 | Binary Cross-Entropy (BCE)    | Measures the log-likelihood of predicted probabilities for binary classification. |![Binary Cross-Entropy (BCE) Equation](https://latex.codecogs.com/png.latex?L(y,%20\hat{y})%20=%20-%20\frac{1}{N}%20\sum_{i=1}^{N}%20[y_i%20\cdot%20\log(\hat{y}_i)%20+%20(1%20-%20y_i)%20\cdot%20\log(1%20-%20\hat{y}_i)])
 | Dice Loss (Dice)              | Measures the overlap between predicted and true positive regions for image segmentation. |
 | Jaccard Loss (Jaccard)        | Measures the intersection over union (IoU) between predicted and true positive regions. |
-| Tversky Loss (Tversky)        | A modification of Dice Loss with adjustable weightings for false positives and false negatives. |
+| Tversky Loss (Tversky)        | A modification of Dice Loss with adjustable weightings for false positives and false negatives. |L(y, \hat{y}) = 1 - \frac{\sum_{i=1}^{N} y_i \cdot \hat{y}_i + \alpha}{\sum_{i=1}^{N} y_i \cdot \hat{y}_i + \beta \cdot \sum_{i=1}^{N} y_i \cdot (1 - \hat{y}_i) + (1 - \beta) \cdot \sum_{i=1}^{N} (1 - y_i) \cdot \hat{y}_i + \alpha}
+
 
 
 
