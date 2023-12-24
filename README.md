@@ -45,12 +45,12 @@ U-Net is a convolutional neural network (CNN) architecture designed for semantic
 
 ### Loss Function : 
 
-| Loss Function                | Description                                           | Equation
-|------------------------------|-------------------------------------------------------|---------------------------
-| Binary Cross-Entropy (BCE)    | Measures the log-likelihood of predicted probabilities for binary classification. |![Binary Cross-Entropy (BCE) Equation](https://latex.codecogs.com/png.latex?L(y,%20\hat{y})%20=%20-%20\frac{1}{N}%20\sum_{i=1}^{N}%20[y_i%20\cdot%20\log(\hat{y}_i)%20+%20(1%20-%20y_i)%20\cdot%20\log(1%20-%20\hat{y}_i)])
-| Dice Loss (Dice)              | Measures the overlap between predicted and true positive regions for image segmentation. |
-| Jaccard Loss (Jaccard)        | Measures the intersection over union (IoU) between predicted and true positive regions. |
-| Tversky Loss (Tversky)        | A modification of Dice Loss with adjustable weightings for false positives and false negatives. |L(y, \hat{y}) = 1 - \frac{\sum_{i=1}^{N} y_i \cdot \hat{y}_i + \alpha}{\sum_{i=1}^{N} y_i \cdot \hat{y}_i + \beta \cdot \sum_{i=1}^{N} y_i \cdot (1 - \hat{y}_i) + (1 - \beta) \cdot \sum_{i=1}^{N} (1 - y_i) \cdot \hat{y}_i + \alpha}
+| Loss Function                | Description                                           
+|------------------------------|-------------------------------------------------------
+| Binary Cross-Entropy (BCE)    | specifically designed for binary classification problems where there are only two classes (commonly denoted as 0 and 1). 
+| Dice Loss (Dice)              | It measures the similarity or overlap between the predicted segmentation mask and the ground truth mask. 
+| Jaccard Loss (Jaccard)        | It quantifies the similarity between the predicted segmentation mask and the ground truth mask. 
+| Tversky Loss (Tversky)        | The Tversky Loss is a modification of the Dice Loss, introducing adjustable weightings for false positives and false negatives. 
 
 
 
