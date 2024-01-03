@@ -43,7 +43,8 @@ U-Net is a convolutional neural network (CNN) architecture designed for semantic
     <img src="unet.png" alt="Logo" width="450" height="250">
 </div>
 
-### Model Architecture :
+### proposed block diagram :
+ 
 
   <div align="center">
       <img src="Model.png" alt="Logo" width="450" height="250">
