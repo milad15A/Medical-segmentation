@@ -49,6 +49,11 @@ U-Net is a convolutional neural network (CNN) architecture designed for semantic
   <div align="center">
       <img src="Model.png" alt="Logo" width="450" height="250">
   </div>
+  
+Output: Considering channels based on the number of classes we have, and if it involves binary segmentation, incorporating one channel for foreground and background. Additionally, for multiple segmentations, setting an equal number of channels
+
+Target: Either one-hot encoding or label encoding can be employed.
+
 
 ### Loss Function : 
 
