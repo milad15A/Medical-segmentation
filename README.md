@@ -71,9 +71,14 @@ Target: Either one-hot encoding or label encoding can be employed.
 This section delves into the practical aspects of the project's implementation.
 
 ### 4.1. Dataset
-  #### 4.1.1.Prerequisite: This dataset encompasses a training file with 115,488 samples in 16-bit grayscale PNG format. Additionally, it includes a CSV file named train.csv featuring three classes: large_bowel, small_bowel, and stomach. Some cases in the dataset also provide segmentation information
+<blockquote>
+  <h4>4.1.1. Data Overview:</h4>
+  <p>This dataset encompasses a cases folder that includes samples in 16-bit grayscale PNG format. Additionally, it includes a CSV file named <code>train.csv</code> featuring 115,488 rows and three classes: <strong>large_bowel</strong>,    <strong>small_bowel</strong>, and <strong>stomach</strong>. Some cases in the dataset also provide segmentation information.</p>
+   <h4>4.1.2. Dataset preparation:</h4>
+    analyzing and refining the train.csv dataset to provide a comprehensive understanding of the data.
+</blockquote>
+
   
-  #### 4.1.2.Dataset preparation : reparing and refining the train.csv dataset to provide a comprehensive understanding of the data
 
 
   
