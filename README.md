@@ -71,6 +71,12 @@ Target: Either one-hot encoding or label encoding can be employed.
 This section delves into the practical aspects of the project's implementation.
 
 ### 4.1. Dataset
+  #### 4.1.1.Prerequisite: This dataset encompasses a training file with 115,488 samples in 16-bit grayscale PNG format. Additionally, it includes a CSV file named train.csv featuring three classes: large_bowel, small_bowel, and stomach. Some cases in the dataset also provide segmentation information
+  
+  #### 4.1.2.Dataset preparation : reparing and refining the train.csv dataset to provide a comprehensive understanding of the data
+
+
+  
 Under this subsection, you'll find information about the dataset used for the medical image segmentation task. It includes details about the dataset source, size, composition, preprocessing, and loading applied to it.
 [Dataset](https://drive.google.com/file/d/1-2ggesSU3agSBKpH-9siKyyCYfbo3Ixm/view?usp=sharing)
 
