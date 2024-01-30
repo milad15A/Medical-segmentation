@@ -86,7 +86,7 @@ This section delves into the practical aspects of the project's implementation.
 
 ## Row 2
 
-| Large Bowel Mask   | Small Bowel Mask    | Stomach Mask        |
+|  Mask   |  Mask    |  Mask        |
 | :-----------------: | :-----------------: | :-----------------: |
 | ![Large Bowel Mask](large_bowel_mask.png) | ![Small Bowel Mask](small_bowel_mask.png) | ![Stomach](stomach.png) |
 
