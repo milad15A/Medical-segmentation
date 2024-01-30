@@ -78,7 +78,17 @@ This section delves into the practical aspects of the project's implementation.
     analyzing and refining the train.csv dataset to provide a comprehensive understanding of the data.
 </blockquote>
 
-  
+  ## Row 1
+
+| Large Bowel        | Small Bowel         | Stomach             |
+| :-----------------: | :-----------------: | :-----------------: |
+| ![Large Bowel](large_bowel.png) | ![Small Bowel](small_bowel.png) | ![Stomach](stomach.png) |
+
+## Row 2
+
+| Large Bowel Mask   | Small Bowel Mask    | Stomach Mask        |
+| :-----------------: | :-----------------: | :-----------------: |
+| ![Large Bowel Mask](large_bowel_mask.png) | ![Small Bowel Mask](small_bowel_mask.png) | ![Stomach Mask](stomach_mask.png) |
 
 
   
