@@ -43,7 +43,16 @@ U-Net is a convolutional neural network (CNN) architecture designed for semantic
     <img src="unet.png" alt="Logo" width="450" height="250">
 </div>
 
-### Model Architecture :
+### proposed block diagram :
+ 
+
+  <div align="center">
+      <img src="Model.png" alt="Logo" width="450" height="250">
+  </div>
+  
+Output: Considering channels based on the number of classes we have, and if it involves binary segmentation, incorporating one channel for foreground and background. Additionally, for multiple segmentations, setting an equal number of channels
+
+Target: Either one-hot encoding or label encoding can be employed.
 
 
 ### Loss Function : 
@@ -62,6 +71,17 @@ U-Net is a convolutional neural network (CNN) architecture designed for semantic
 This section delves into the practical aspects of the project's implementation.
 
 ### 4.1. Dataset
+<blockquote>
+  <h4>4.1.1. Data Overview:</h4>
+  <p>This dataset encompasses a cases folder that includes samples in 16-bit grayscale PNG format. Additionally, it includes a CSV file named <code>train.csv</code> featuring 115,488 rows and three classes: <strong>large_bowel</strong>,    <strong>small_bowel</strong>, and <strong>stomach</strong>. Some cases in the dataset also provide segmentation information.</p>
+   <h4>4.1.2. Dataset preparation:</h4>
+    analyzing and refining the train.csv dataset to provide a comprehensive understanding of the data.
+</blockquote>
+
+  
+
+
+  
 Under this subsection, you'll find information about the dataset used for the medical image segmentation task. It includes details about the dataset source, size, composition, preprocessing, and loading applied to it.
 [Dataset](https://drive.google.com/file/d/1-2ggesSU3agSBKpH-9siKyyCYfbo3Ixm/view?usp=sharing)
 
