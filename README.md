@@ -82,13 +82,13 @@ This section delves into the practical aspects of the project's implementation.
 
 | Large Bowel        | Small Bowel         | Stomach             |
 | :-----------------: | :-----------------: | :-----------------: |
-| ![Large Bowel](large_bowel.png) | ![Small Bowel](small_bowel.png) | ![Stomach](stomach.png) |
+| ![Large Bowel](large_bowel.png) | ![Small Bowel](small_bowel.png) |![Stomach Mask](stomach_mask.png)  |
 
 ## Row 2
 
 | Large Bowel Mask   | Small Bowel Mask    | Stomach Mask        |
 | :-----------------: | :-----------------: | :-----------------: |
-| ![Large Bowel Mask](large_bowel_mask.png) | ![Small Bowel Mask](small_bowel_mask.png) | ![Stomach Mask](stomach_mask.png) |
+| ![Large Bowel Mask](large_bowel_mask.png) | ![Small Bowel Mask](small_bowel_mask.png) | ![Stomach](stomach.png) |
 
 
   
