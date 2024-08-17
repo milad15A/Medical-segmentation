@@ -30,6 +30,7 @@ This section presents both common and innovative methods and architectures, aimi
 | 3     |  Deeplabv3     |designed modules that employ atrous convolution in cascade or in parallel to capture multi-scale context by adopting multiple atrous rates  |[Link](https://paperswithcode.com/method/deeplabv3) |
 |4       |    BiSeNet          |designed a Spatial Path with a small stride to preserve the spatial information and generate high-resolution features. Meanwhile, a Context Path with a fast downsampling strategy is employed to obtain a sufficient receptive field. | [Link](https://paperswithcode.com/paper/bisenet-bilateral-segmentation-network-for)  |
 | 5      |  U-Net      |The architecture consists of a contracting path to capture context and a symmetric expanding path that enables precise localization  |[Link](https://paperswithcode.com/paper/u-net-convolutional-networks-for-biomedical) |
+| 6      |  SegFormer      |The proposed SegFormer framework consists of two main modules: A hierarchical Transformer encoder to extract coarse and ﬁne features; and a lightweight All-MLP decoder to directly fuse these multi-level features and predict the semantic segmentation mask. “FFN” indicates feed-forward network  |[Link][(https://paperswithcode.com/paper/u-net-convolutional-networks-for-biomedical)](https://arxiv.org/abs/2105.15203v3) |
 
  
 
