@@ -66,8 +66,14 @@ Target: Either one-hot encoding or label encoding can be employed.
 | Tversky Loss (Tversky)        | The Tversky Loss is a modification of the Dice Loss, introducing adjustable weightings for false positives and false negatives. 
 
 
-
-
+### Evaluation Metric :
+there are some useful and common evaluation metric 
+| Evaluation               | Description                                           |Formula 
+|--------------------------|-------------------------------------------------------|---------
+| Accuracy   | Accuracy is the ratio of correctly predicted instances to the total instances |Accuracy= Total Instances /True Positives+True Negatives
+| Dice Loss (Dice)              | It measures the similarity or overlap between the predicted segmentation and ground truth masks.Dice Loss = 1 - (2 * Σ(p_i * g_i)) / (Σ(p_i^2) + Σ(g_i^2)) 
+| Jaccard Loss (Jaccard)        | It quantifies the similarity between the predicted segmentation mask and the ground truth mask. 
+| Tversky Loss (Tversky)        | The Tversky Loss is a modification of the Dice Loss, introducing adjustable weightings for false positives and false negatives.
 
 
 ## 4. Implementation
