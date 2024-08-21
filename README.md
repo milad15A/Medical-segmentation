@@ -61,9 +61,11 @@ Target: Either one-hot encoding or label encoding can be employed.
 | Loss Function                | Description                                           
 |------------------------------|-------------------------------------------------------
 | Binary Cross-Entropy (BCE)    | specifically designed for binary classification problems where there are only two classes (commonly denoted as 0 and 1). 
-| Dice Loss (Dice)              | It measures the similarity or overlap between the predicted segmentation mask and the ground truth mask. 
+| Dice Loss (Dice)              | It measures the similarity or overlap between the predicted segmentation and ground truth masks.Dice Loss = 1 - (2 * Σ(p_i * g_i)) / (Σ(p_i^2) + Σ(g_i^2)) 
 | Jaccard Loss (Jaccard)        | It quantifies the similarity between the predicted segmentation mask and the ground truth mask. 
 | Tversky Loss (Tversky)        | The Tversky Loss is a modification of the Dice Loss, introducing adjustable weightings for false positives and false negatives. 
+
+
 
 
 
