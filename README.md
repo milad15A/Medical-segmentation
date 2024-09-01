@@ -86,7 +86,7 @@ This section delves into the practical aspects of the project's implementation.
    <h4>4.1.2. Dataset preparation:</h4>
     analyzing and refining the train.csv dataset to provide a comprehensive understanding of the data.
     <br/> 1-Begin by using Pandas to read the segmentation column from the <strong>train.csv</strong>file.
-    <p >We should use the RLE (Run-Length Encoding) method for the segmentation column and generate the RLE_MASK.</p>
+    <br/> The segmentation is in RLE (Run-Length Encoding) format, which means we need to create and generate an RLE_msk.
 </blockquote>
 
   ## Row 1
