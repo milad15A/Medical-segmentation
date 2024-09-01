@@ -85,6 +85,8 @@ This section delves into the practical aspects of the project's implementation.
   <p>This dataset encompasses a cases folder that includes samples in 16-bit grayscale PNG format. Additionally, it includes a CSV file named <code>train.csv</code> featuring 115,488 rows and three classes: <strong>large_bowel</strong>,    <strong>small_bowel</strong>, and <strong>stomach</strong>. Some cases in the dataset also provide segmentation information.</p>
    <h4>4.1.2. Dataset preparation:</h4>
     analyzing and refining the train.csv dataset to provide a comprehensive understanding of the data.
+    <br/> 1-Begin by using Pandas to read the segmentation column from the <strong>train.csv</strong>file.
+    <p >We should use the RLE (Run-Length Encoding) method for the segmentation column and generate the RLE_MASK.</p>
 </blockquote>
 
   ## Row 1
