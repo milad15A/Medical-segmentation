@@ -83,11 +83,13 @@ This section delves into the practical aspects of the project's implementation.
 <blockquote>
   <h4>4.1.1. Data Overview:</h4>
   <p>This dataset encompasses a cases folder that includes samples in 16-bit grayscale PNG format. Additionally, it includes a CSV file named <code>train.csv</code> featuring 115,488 rows and three classes: <strong>large_bowel</strong>,    <strong>small_bowel</strong>, and <strong>stomach</strong>. Some cases in the dataset also provide segmentation information.</p>
-   <h4>4.1.2. Dataset preparation:</h4>
+   <h4>4.1.2. show segmentation:</h4>
     analyzing and refining the train.csv dataset to provide a comprehensive understanding of the data.
     <br/> 1-Begin by using Pandas to read the segmentation column from the <strong>train.csv</strong>file.
     <br/> The segmentation is in RLE (Run-Length Encoding) format, which means we need to create and generate an RLE_msk.
     <br/> 2-We are required to convert the list of rle_mask into an array in order to create a vector 
+    <br/> 3-Concatenate the RLE mask and display the mask on the image
+  <h4>4.1.3. Dataset preparation:</h4>
 </blockquote>
 
   ## Row 1
